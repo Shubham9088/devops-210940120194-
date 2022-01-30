@@ -27,6 +27,14 @@ public class Testclass {
 		 break;
 		 case 2:System.out.println("Subtraction of "+num1+" and "+num2+" is "+(num1-num2));
 		 break;
+		 case 3:System.out.println("Addition of "+num1+" and "+num2+" is "+(num1+num2));
+		 break;
+		 case 4: if(num2==0)
+		 System.out.println("Error!!! In Division denominator cannot be 0!");
+		 else{
+		 System.out.println("In division of "+num1+" by "+num2+" quotient is "+(num1/num2)+" and remainder is "+(num1%num2));} 
+		 break;
+		 case 5: break;
 		 default: System.out.println("Invalid choice");
 		 }
 		 System.out.println("Do you want to continue?1.Yes 2.No");
